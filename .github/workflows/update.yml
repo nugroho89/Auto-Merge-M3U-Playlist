@@ -1,38 +1,41 @@
-name: Auto Merge M3U Playlists
+name: Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    # Berjalan otomatis setiap hari jam 00:00 UTC
+    - cron: '0 0 * * *'
+  # Menambahkan tombol "Run workflow" di tab Actions GitHub
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  merge-playlists:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Ambil dan Gabungkan M3U
-        run: |
-          curl -sL "https://iptv-org.github.io/iptv/countries/id.m3u" > sumber1.m3u
-          curl -sL "https://iptv-org.github.io/iptv/categories/kids.m3u" > sumber2.m3u
-          curl -sL "https://raw.githubusercontent.com/dhasap/dhanytv/refs/heads/main/dhanytv.m3u" > sumber3.m3u
-
-          cat sumber1.m3u sumber2.m3u sumber3.m3u > playlist.m3u
-
-      - name: Commit File
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u
-          git commit -m "Auto update playlist M3U" || echo "Tidak ada perubahan"
-
-      - name: Push Perubahan
-        uses: ad-m/github-push-action@master
+      - name: Set up Python
+        uses: actions/python-spec@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Merge Script
+        run: |
+          python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Auto update playlist M3U"
+          git push
