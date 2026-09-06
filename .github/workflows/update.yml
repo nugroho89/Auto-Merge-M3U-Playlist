@@ -22,15 +22,17 @@ jobs:
           curl -sL "https://iptv-org.github.io/iptv/categories/kids.m3u" > sumber2.m3u
           curl -sL "https://raw.githubusercontent.com/dhasap/dhanytv/refs/heads/main/dhanytv.m3u" > sumber3.m3u
 
-          # Gabungkan ketiga file M3U
           cat sumber1.m3u sumber2.m3u sumber3.m3u > playlist.m3u
 
-      - name: Commit dan Push Perubahan
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit File
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add playlist.m3u
           git commit -m "Auto update playlist M3U" || echo "Tidak ada perubahan"
-          git push
+
+      - name: Push Perubahan
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
