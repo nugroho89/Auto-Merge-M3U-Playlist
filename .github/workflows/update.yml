@@ -1,12 +1,12 @@
 name: Auto-Merge M3U Playlist
 
 on:
-  workflow_dispatch: # WAJIB: Agar tombol Update Manual di Android IDE bisa terkoneksi
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # Otomatis update tiap 6 jam
+    - cron: '0 */6 * * *'
 
 permissions:
-  contents: write # Izin untuk push/save file playlist baru
+  contents: write
 
 jobs:
   merge-playlists:
@@ -16,34 +16,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install Dependencies
+      - name: Create and Update Playlist File
         run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          # Buat file playlist.m3u baru dengan baris header
+          echo "#EXTM3U" > playlist.m3u
+          
+          # Jika Anda memiliki URL sumber playlist lain, masukkan di bawah ini (opsional):
+          # curl -s "https://link-playlist-sumber.com/live.m3u" | grep -v "^#EXTM3U" >> playlist.m3u || true
 
-      - name: Run Merge Script
-        run: |
-          # Menggunakan pcall aman agar tidak exit code 2 jika skrip python gagal/tidak ada
-          if [ -f merge.py ]; then
-            python merge.py
-          else
-            echo "File merge.py tidak ditemukan, menggabungkan secara manual..."
-            echo "#EXTM3U" > playlist.m3u
-          fi
-
-      - name: Commit and Push Playlist
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add playlist.m3u
           
           if git diff --staged --quiet; then
-            echo "Tidak ada perubahan pada playlist.m3u"
+            echo "Tidak ada perubahan."
           else
             git commit -m "Auto update playlist.m3u [skip ci]"
             git push
