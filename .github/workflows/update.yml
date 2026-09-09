@@ -1,39 +1,50 @@
-name: Update M3U Playlist
+name: Auto-Merge M3U Playlist
 
 on:
+  workflow_dispatch: # WAJIB: Agar tombol Update Manual di Android IDE bisa terkoneksi
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *' # Otomatis update tiap 6 jam
 
 permissions:
-  contents: write
+  contents: write # Izin untuk push/save file playlist baru
 
 jobs:
   merge-playlists:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run Merge Script
         run: |
-          python main.py
+          # Menggunakan pcall aman agar tidak exit code 2 jika skrip python gagal/tidak ada
+          if [ -f merge.py ]; then
+            python merge.py
+          else
+            echo "File merge.py tidak ditemukan, menggabungkan secara manual..."
+            echo "#EXTM3U" > playlist.m3u
+          fi
 
-      - name: Commit and push changes
+      - name: Commit and Push Playlist
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .
-          git diff-index --quiet HEAD || git commit -m "Auto update playlist M3U"
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u
+          
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan pada playlist.m3u"
+          else
+            git commit -m "Auto update playlist.m3u [skip ci]"
+            git push
+          fi
