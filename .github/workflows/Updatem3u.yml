@@ -4,7 +4,10 @@ on:
   schedule:
     # Berjalan otomatis setiap 12 jam
     - cron: '0 */12 * * *'
-  workflow_dispatch: # Memungkinkan kamu menekan tombol jalankan manual
+  workflow_dispatch: # Mengaktifkan tombol "Run workflow" untuk dijalankan manual
+
+permissions:
+  contents: write # Memberikan izin otomatis untuk menyimpan file
 
 jobs:
   merge-m3u:
@@ -15,10 +18,11 @@ jobs:
 
       - name: Unduh dan Gabungkan Playlist
         run: |
-          # 1. Tulis header utama
+          # 1. Buat header utama M3U
           echo "#EXTM3U" > playlist.m3u
 
-          # 2. Masukkan URL sumber M3U aktif di bawah ini (Ganti URL di bawah dengan link M3U milikmu)
+          # 2. MASUKKAN LIST LINK M3U / PLAYLIST ONLINE DI BAWAH INI
+          # Tambahkan atau ganti URL sesuai kebutuhan Anda
           URL1="https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u"
           URL2="https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id_telkomsel.m3u"
           URL3=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/id_denstv.m3u
@@ -29,15 +33,29 @@ jobs:
           URL8=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/jp.m3u
           URL9=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/kr.m3u
           URL10=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u
-          
-       # 3. Proses pengunduhan
-          curl -s "$URL1" | grep -v "^#EXTM3U" >> playlist.m3u || true
-          curl -s "$URL2" | grep -v "^#EXTM3U" >> playlist.m3u || true
 
-      - name: Simpan Perubahan ke GitHub
+          # 3. Proses pengunduhan & penggabungan
+          echo "Mengunduh dari URL1..."
+          curl -s -L "$URL1" | grep -v "^#EXTM3U" >> playlist.m3u || true
+
+          echo "Mengunduh dari URL2..."
+          curl -s -L "$URL2" | grep -v "^#EXTM3U" >> playlist.m3u || true
+
+          # JIKA ADA FILE LOKAL (seperti channel.txt di repo), hapus tanda pagar (#) di bawah ini:
+           if [ -f "channel.txt" ]; then
+             cat channel.txt | grep -v "^#EXTM3U" >> playlist.m3u
+           fi
+
+      - name: Commit & Push Perubahan
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add playlist.m3u
-          git commit -m "Auto update playlist M3U" || exit 0
-          git push 
+          
+          # Kirim perubahan jika ada update
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan pada playlist."
+          else
+            git commit -m "Auto update playlist.m3u"
+            git push
+          fi
