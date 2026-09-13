@@ -1,24 +1,4 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="afn" tvg-name="Asian Food Network" tvg-logo="https://example.com/logo_afn.png" group-title="LIFESTYLE", Asian Food Network
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://streaming-service.com/
-http://stream-server.com/live/afn/index.m3u8?token=TOKEN_AKTIF_KAMU
-
-#EXTINF:-1 tvg-id="bein1" tvg-name="beIN Sports 1" tvg-logo="https://example.com/logo_bein1.png" group-title="OLAH RAGA", beIN Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Android 13; Mobile)
-#EXTVLCOPT:http-referrer=https://beinsports.com/
-http://stream-server.com/live/bein1/index.m3u8?token=TOKEN_AKTIF_KAMU
-
-#EXTINF:-1 tvg-id="motogp" tvg-name="SPOTV MotoGP" tvg-logo="https://example.com/logo_spotv.png" group-title="OLAH RAGA", SPOTV MotoGP
-#EXTVLCOPT:http-user-agent=TiviMate/4.7.0
-#EXTVLCOPT:http-referrer=https://spotvnow.com/
-http://stream-server.com/live/spotv/index.m3u8?token=TOKEN_AKTIF_KAMU
-
-#EXTINF:-1 tvg-id="hbo" tvg-name="HBO HD" tvg-logo="https://example.com/logo_hbo.png" group-title="FILM", HBO HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-http://stream-server.com/live/hbo/index.m3u8?token=TOKEN_AKTIF_KAMU
-
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
