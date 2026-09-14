@@ -1,4 +1,18 @@
 #EXTM3U
+
+"https://ucritt-proxy.nugrohojati234.workers.dev/",
+"https://raw.githubusercontent.com/nugroho09/Auto-Merge-M3U-Playlist/refs/heads/main/playlist.m3u",
+"https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u",
+"https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u",
+"https://iptv-org.github.io/iptv/index.m3u",
+"https://iptv-org.github.io/iptv/index.category.m3u",
+"https://iptv-org.github.io/iptv/categories/news.m3u",
+"https://iptv-org.github.io/iptv/categories/sports.m3u",
+"https://iptv-org.github.io/iptv/categories/movies.m3u",
+"https://iptv-org.github.io/iptv/categories/music.m3u",
+"https://iptv-org.github.io/iptv/index.country.m3u",
+"https://iptv-org.github.io/iptv/index.language.m3u",
+"https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
@@ -382,4 +396,4 @@ https://selaparangtv.siar.us/live/selaparangtv.m3u8
 http://ikitv.sqn.at:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="VTV.id@HD",VTV HD (1080p)
 http://ikitv.sqn.at:8000/play/a023/index.m3u8
-404: Not Found
+
