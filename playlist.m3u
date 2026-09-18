@@ -1,4 +1,36 @@
 #EXTM3U
+
+#EXTINF:-1 tvg-logo="https://cdn.detik.net.id/live/trans7.png" group-title="INDONESIA", TRANS 7
+https://20.detik.com/live/trans-7
+
+#EXTINF:-1 tvg-logo="https://cdn.detik.net.id/live/transtv.png" group-title="INDONESIA", TRANS TV
+https://20.detik.com/live/trans-tv
+
+#EXTINF:-1 tvg-logo="https://cdn.detik.net.id/live/cnn.png" group-title="BERITA", CNN INDONESIA
+https://www.cnnindonesia.com/tv
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/RCTI_2015.png" group-title="INDONESIA", RCTI
+https://rcti-linier.rctiplus.id/hdntl=exp=1789792100~acl=%2F*~data=hdntl~hmac=737867145bec411e9f68fdf3f80c91c3bd96610225e917cd3c4cacb72387945c/rcti-sdi-avc1_600000=9-mp4a_96000=1.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/iNews.png" group-title="BERITA", INEWS
+https://inews-linier.rctiplus.id/hdntl=exp=1789792279~acl=%2F*~data=hdntl~hmac=04f875f344ec6f536b779ebe2385049a9f22098ca91fe083bd7b002e3456a864/inews-sdi-avc1_600000=10-mp4a_96000=1.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/GTV_2017.png" group-title="INDONESIA", GTV
+https://gtv-linier.rctiplus.id/hdntl=exp=1789792361~acl=%2F*~data=hdntl~hmac=b703e26af89baa10b0a1eb9beb0fc6fed6d388cde5bcf2d1dfa346c1457a6dee/gtv-sdi-avc1_600000=5-mp4a_96000=1.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/MNCTV_2010.png" group-title="INDONESIA", MNCTV
+https://mnctv-linier.rctiplus.id/hdntl=exp=1789792439~acl=%2F*~data=hdntl~hmac=442367e93c666b41ed7935d738053473372db4ec1521bc0e9b797409cd97e73d/mnctv-sdi-avc1_600000=8-mp4a_96000=1.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/TVRI_2019.png" group-title="INDONESIA", TVRI NASIONAL
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional-avc1_900000=10001-mp4a_96000_eng=20000.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/TVRI_2019.png" group-title="INDONESIA", TVRI DKI
+https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI-avc1_900000=10003-mp4a_96000=20001.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/TVRI_2019.png" group-title="INDONESIA", TVRI JATENG
+https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng-avc1_900000=10004-mp4a_96000=20001.m3u8
+
+
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
