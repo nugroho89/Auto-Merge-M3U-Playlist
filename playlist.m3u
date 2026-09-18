@@ -1,33 +1,4 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-logo="https://cdn.detik.net.id/live/trans7.png" group-title="INDONESIA", TRANS 7
-https://20.detik.com/live/trans-7
-
-#EXTINF:-1 tvg-logo="https://cdn.detik.net.id/live/transtv.png" group-title="INDONESIA", TRANS TV
-https://20.detik.com/live/trans-tv
-
-#EXTINF:-1 tvg-logo="https://cdn.detik.net.id/live/cnn.png" group-title="BERITA", CNN INDONESIA
-https://www.cnnindonesia.com/tv
-
-#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/RCTI_2015.png" group-title="National", RCTI
-https://rcti-linier.rctiplus.id/hdntl=exp=1789791382~acl=%2F*~data=hdntl~hmac=832178ad61db30b79c03a7cc17bb59f15f8f2bb5e45c476f6e4dd6abf5cdd9e3/rcti-sdi-avc1_600000=9-mp4a_96000=1.m3u8
-
-#EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/MNCTV_2010.png" group-title="National", MNCTV
-https://mnctv-linier.rctiplus.id/hdntl=exp=1789791499~acl=%2F*~data=hdntl~hmac=8bde06e7c02ceb5c1c0fae93fd911778444181cb2f09806097071e7a3cb00279/mnctv-sdi-avc1_600000=8-mp4a_96000=1.m3u8
-
-#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/GTV_2017.png" group-title="National", GTV
-https://gtv-linier.rctiplus.id/hdntl=exp=1789791637~acl=%2F*~data=hdntl~hmac=8cbe64af060b2469d322685b4a9589de239ae5aa85c3c67b23e5639f5bd59bb0/gtv-sdi-avc1_600000=5-mp4a_96000=1.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/TVRI_2019.png" group-title="INDONESIA", TVRI NASIONAL
-https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional-avc1_900000=10001-mp4a_96000_eng=20000.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/TVRI_2019.png" group-title="INDONESIA", TVRI DKI
-https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI-avc1_900000=10003-mp4a_96000=20001.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/TVRI_2019.png" group-title="INDONESIA", TVRI JATENG
-https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng-avc1_900000=10004-mp4a_96000=20001.m3u8
-
-
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
