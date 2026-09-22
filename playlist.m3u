@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="" tvg-name="LaLiga Live" tvg-logo="" group-title="Sports",Live ES | LALIGA
+https://m3uextractor.kiki10kkii.workers.dev/download/2edd1dc4-2a34-4c9f-bef0-aba8aeaf6612/Live_ES%20_%20LALIGA.m3u8
+
 #EXTINF:-1,Foxsportspremium
 http://195.178.110.110/foxsportspremium/index.m3u8
 #EXTINF:-1,Foxdeportes
