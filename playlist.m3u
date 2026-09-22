@@ -1,5 +1,15 @@
 #EXTM3U
 
+#EXTM3U
+
+#EXTINF:-1 group-title="VOD LK21",Playlist Kombinasi
+https://aspaltvpasti.top/Vodlk21/playlist_kombinasi.m3u
+
+#EXTINF:-1 group-title="Dewasa",Playlist Dew
+https://aspaltvpasti.top/1xj/Dew/playlist.m3u
+
+
+
 #EXTINF:-1, Playlist 1
 https://ayo.maling.pl/aldiyansyah.m3u
 ​#EXTINF:-1, Playlist 2
