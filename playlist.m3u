@@ -1,7 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1, Playlist 1
+https://ayo.maling.pl/aldiyansyah.m3u
+​#EXTINF:-1, Playlist 2
 https://malingpunya.ervinkasep01.workers.dev/playlist.m3u
-
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
