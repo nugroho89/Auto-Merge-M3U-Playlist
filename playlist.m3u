@@ -1,10 +1,4 @@
 #EXTM3U
-
-#EXTINF:-1 group-title="Culinary",Asian Food Channel
-http://ns2.hellotvvod.com:9906/c3c6af00613e456eac023ab2f1cbbe7c.ts
-
-
-
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
