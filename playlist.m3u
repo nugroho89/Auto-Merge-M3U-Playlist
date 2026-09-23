@@ -1,7 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="AsianFoodNetwork.id" tvg-name="Asian Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/Asian_Food_Network_logo.png" group-title="Lifestyle" http-user-agent="Mozilla/5.0" http-referrer="https://fptplay.vn/",Asian Food Network
-https://livecdn.fptplay.net/world/afchd_hls.smil/chunklist_b2500000.m3u8|User-Agent=Mozilla/5.0&Referer=https://fptplay.vn/
 
 
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
