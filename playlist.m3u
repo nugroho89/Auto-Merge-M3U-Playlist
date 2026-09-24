@@ -1,15 +1,4 @@
 #EXTM3U
-
-
-#EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="Asian Food Channel" tvg-logo="" group-title="Food",Asian Food Channel
-P2p://ns2.hellotvvod.com:9906/c3c6af00613e456eac023ab2f1cbbe7c.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Food Network" tvg-logo="" group-title="Food",Food Network
-P2p://ns2.hellotvvod.com:9906/696ca7283f6042f19b0b302300e5d9ef.ts
-
-
-
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
