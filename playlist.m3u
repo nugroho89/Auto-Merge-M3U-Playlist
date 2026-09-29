@@ -4,6 +4,11 @@
 https://m3uextractor.kiki10kkii.workers.dev/download/32b1f830-54b0-4b0f-bd0d-5bd25dbfa5ee/Live_%E2%94%83AR%E2%94%83%20AL%20KASS%20SPORT.m3u8
 
 
+#EXTINF:-1 tvg-id="LiveChannel" tvg-name="Live Stream" tvg-logo="" group-title="LIVE TV", Live Stream
+http://190.60.57.58:8000/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-id="AFBTVKupang.id@SD",AFBTV Kupang (1080p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://afbtvkupang.com/
 https://afbtv.siar.us/live/afbtv.m3u8
