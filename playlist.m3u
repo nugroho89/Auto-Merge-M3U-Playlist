@@ -1,7 +1,6 @@
 #EXTM3U
 
-#EXTM3U
-#EXTINF:-1 tvg-id="AlKassSport" tvg-name="AL KASS SPORT" group-title="ARABIC SPORTS",AL KASS SPORT
+#EXTINF:-1 tvg-id="AlKassSport" tvg-name="AL KASS SPORT" tvg-logo="" group-title="ARABIC SPORTS",AL KASS SPORT
 https://m3uextractor.kiki10kkii.workers.dev/download/32b1f830-54b0-4b0f-bd0d-5bd25dbfa5ee/Live_%E2%94%83AR%E2%94%83%20AL%20KASS%20SPORT.m3u8
 
 
