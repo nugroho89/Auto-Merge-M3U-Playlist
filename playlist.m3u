@@ -1,5 +1,19 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="ES_LALIGA_VIP" tvg-name="ES | LALIGA VIP" tvg-logo="" group-title="SPAIN SPORTS",ES | LALIGA VIP
+https://m3uextractor.kiki10kkii.workers.dev/download/69582a9a-5bf0-45f4-8186-3dcd824f3c4f/Live_ES%20_%20LALIGA%20VIP.m3u8
+
+#EXTINF:-1 tvg-id="ES_UEFA_CHAMPIONS" tvg-name="ES | UEFA Liga de Campeones" tvg-logo="" group-title="SPAIN SPORTS",ES | UEFA Liga de Campeones
+https://m3uextractor.kiki10kkii.workers.dev/download/90b9c808-6f37-4d42-96ad-a41fae34dc47/Live_ES%20_%20UEFA%20Liga%20de%20Campeones.m3u8
+
+#EXTINF:-1 tvg-id="FR_SPORT_VIP" tvg-name="FR | SPORT VIP" tvg-logo="" group-title="FRANCE SPORTS",FR | SPORT VIP
+https://m3uextractor.kiki10kkii.workers.dev/download/db5c2f01-cb99-4f1d-a6c8-23e9563f7085/Live_FR%20_%20SPORT%20VIP.m3u8
+
+#EXTINF:-1 tvg-id="FR_LIGUE1_VIP" tvg-name="FR | LIGUE1+ VIP" tvg-logo="" group-title="FRANCE SPORTS",FR | LIGUE1+ VIP
+https://m3uextractor.kiki10kkii.workers.dev/download/931492f6-2b03-40b2-82f9-5a0560257ef8/Live_FR%20_%20LIGUE1%2B%20VIP.m3u8
+
+
+
 #EXTINF:-1 tvg-id="AlKassSport" tvg-name="AL KASS SPORT" tvg-logo="" group-title="ARABIC SPORTS",AL KASS SPORT
 https://m3uextractor.kiki10kkii.workers.dev/download/32b1f830-54b0-4b0f-bd0d-5bd25dbfa5ee/Live_%E2%94%83AR%E2%94%83%20AL%20KASS%20SPORT.m3u8
 
