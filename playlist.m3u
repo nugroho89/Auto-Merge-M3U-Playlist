@@ -4,6 +4,10 @@
 #EXTINF:-1 tvg-id="AsianFoodNetwork.id" tvg-name="Asian Food Network" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/singapore/asian-food-network-sg.png" group-title="Asian Food Network", Asian Food Network
 https://ucriitproxy.nugrohojati234.workers.dev/?url=http://line.hostytv.store/play/live.php?mac=00:1A:79:bf:e9:f8&stream=534440&extension=m3u8
 
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="ASIAN FOOD CHANNEL" tvg-logo="URL_LOGO_JIKA_ADA" group-title="Kategori", Nama Channel
+http://185.93.2.35:12012/live/359111068247FFA1/MPWOsuAFOtOWF0EbcbiHd0YdVYqFbMkSxUtVrftKP-MZn8nvfE1A031QE38lDJcm/03DC29C076F247E9/919996.ts
+
 
 #EXTINF:-1 tvg-id="RCTI.id" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/indonesia/rcti-id.png" group-title="National", RCTI
 https://ucritt-proxy.nugrohojati234.workers.dev/?url=https://www.rctiplus.com/tv/rcti?utm_source=Rplusmweb&utm_medium=share_link.m3u8
