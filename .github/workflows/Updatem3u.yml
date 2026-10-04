@@ -22,50 +22,57 @@ jobs:
           echo "#EXTM3U" > playlist.m3u
 
           # 2. DAFTAR LINK M3U / PLAYLIST ONLINE (Gunakan Array)
-          # Anda bisa menambah atau menghapus URL di dalam kurung di bawah ini dengan aman.
           URLS=(
-             "https://mangasep.s.gy/wpE",
-            "https://ucrit-proxy.nugrohojati234.workers.dev/",
-            "https://iptv.riotryulianto.workers.dev/",
-            "https://iptv-org.github.io/iptv/countries/id.m3u",
-            "https://iptv-org.github.io/iptv/countries/my.m3u",
-            "https://iptv-org.github.io/iptv/countries/us.m3u",
-            "https://iptv-org.github.io/iptv/countries/jp.m3u",
-            "https://iptv-org.github.io/iptv/countries/in.m3u",
-            "https://iptv-org.github.io/iptv/countries/sa.m3u",
-            "https://iptv-org.github.io/iptv/countries/uk.m3u",
-            "https://iptv-org.github.io/iptv/countries/int.m3u",
-            "https://raw.githubusercontent.com/underworld11/IPTV/refs/heads/master/indonesia.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id_telkomsel.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/id_dens.m3u",
-            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u",
-            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u",
-            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-m3u",
-            "https://raw.githubusercontent.com/Nugroho09/Auto-Merge-M3U-Playlist/refs/heads/main/playlist.m3u",
-            "https://mgi24.github.io/tvdigital/idwerk.m3u",
-            "https://mgi24.github.io/tvdigital/playlist.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u",
-            "https://raw.githubusercontent.com/Nugrohojati234/playlist/main/merged.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/jp.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/kr.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u",
-            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/uk.m3u",
-            "https://iptv-org.github.io/iptv/categories/sports.m3u",
-            "https://iptv-org.github.io/iptv/categories/movies.m3u",
-            "https://iptv-org.github.io/iptv/categories/kids.m3u",
-            "https://iptv-org.github.io/iptv/categories/news.m3u",
-            "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
-            "https://iptv-org.github.io/iptv/categories/music.m3u",
-            "https://iptv-org.github.io/iptv/categories/lifestyle.m3u",
-            "https://iptv-org.github.io/iptv/index.country.m3u",
-            "https://iptv-org.github.io/iptv/index.category.m3u",
+            "https://mangasep.s.gy/wpE"
+            "https://ucrit-proxy.nugrohojati234.workers.dev/"
+            "https://iptv.riotryulianto.workers.dev/"
+            "https://iptv-org.github.io/iptv/countries/id.m3u"
+            "https://iptv-org.github.io/iptv/countries/my.m3u"
+            "https://iptv-org.github.io/iptv/countries/us.m3u"
+            "https://iptv-org.github.io/iptv/countries/jp.m3u"
+            "https://iptv-org.github.io/iptv/countries/in.m3u"
+            "https://iptv-org.github.io/iptv/countries/sa.m3u"
+            "https://iptv-org.github.io/iptv/countries/uk.m3u"
+            "https://iptv-org.github.io/iptv/countries/int.m3u"
+            "https://raw.githubusercontent.com/underworld11/IPTV/refs/heads/master/indonesia.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id_telkomsel.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/id_dens.m3u"
+            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u"
+            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u"
+            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-m3u"
+            "https://raw.githubusercontent.com/Nugroho09/Auto-Merge-M3U-Playlist/refs/heads/main/playlist.m3u"
+            "https://mgi24.github.io/tvdigital/idwerk.m3u"
+            "https://mgi24.github.io/tvdigital/playlist.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u"
+            "https://raw.githubusercontent.com/Nugrohojati234/playlist/main/merged.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/jp.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/kr.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u"
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/uk.m3u"
+            "https://iptv-org.github.io/iptv/categories/sports.m3u"
+            "https://iptv-org.github.io/iptv/categories/movies.m3u"
+            "https://iptv-org.github.io/iptv/categories/kids.m3u"
+            "https://iptv-org.github.io/iptv/categories/news.m3u"
+            "https://iptv-org.github.io/iptv/categories/entertainment.m3u"
+            "https://iptv-org.github.io/iptv/categories/music.m3u"
+            "https://iptv-org.github.io/iptv/categories/lifestyle.m3u"
+            "https://iptv-org.github.io/iptv/index.country.m3u"
+            "https://iptv-org.github.io/iptv/index.category.m3u"
             "https://iptv-org.github.io/iptv/index.m3u"
           )
 
-          # 3. Proses pengunduhan & penggabungan otomatis menggunakan perulangan (Loop)
+          # 3. Proses pengunduhan dengan validasi anti-HTML
           for url in "${URLS[@]}"; do
             echo "Mengunduh dari: $url"
-            curl -s -L "$url" | grep -v "^#EXTM3U" >> playlist.m3u || true
+            content=$(curl -s -L "$url")
+            
+            # Cek apakah isi file mengandung tag HTML (indikasi error/link mati)
+            if echo "$content" | grep -qi "<html"; then
+              echo "-> PERINGATAN: URL ini mengembalikan halaman HTML (Error/Link Not Found), dilewati."
+            else
+              echo "$content" | grep -v "^#EXTM3U" >> playlist.m3u
+              echo "-> Berhasil digabung."
+            fi
           done
 
           # 4. Jika ada file lokal (seperti channel.txt di repo), gabungkan juga:
@@ -84,6 +91,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan pada playlist."
           else
-            git commit -m "Auto update playlist.m3u"
+            git commit -m "Auto update playlist.m3u (dengan filter anti-error)"
             git push
           fi
