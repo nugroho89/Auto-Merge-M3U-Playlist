@@ -21,30 +21,58 @@ jobs:
           # 1. Buat header utama M3U
           echo "#EXTM3U" > playlist.m3u
 
-          # 2. MASUKKAN LIST LINK M3U / PLAYLIST ONLINE DI BAWAH INI
-          # Tambahkan atau ganti URL sesuai kebutuhan Anda
-          URL1="https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u"
-          URL2="https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id_telkomsel.m3u"
-          URL3=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/id_denstv.m3u
-          URL4=https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u
-          URL5=https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml
-          URL6=https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u
-          URL7=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/id.m3u
-          URL8=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/jp.m3u
-          URL9=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/kr.m3u
-          URL10=https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u
+          # 2. DAFTAR LINK M3U / PLAYLIST ONLINE (Gunakan Array)
+          # Anda bisa menambah atau menghapus URL di dalam kurung di bawah ini dengan aman.
+          URLS=(
+             "https://mangasep.s.gy/wpE",
+            "https://ucrit-proxy.nugrohojati234.workers.dev/",
+            "https://iptv.riotryulianto.workers.dev/",
+            "https://iptv-org.github.io/iptv/countries/id.m3u",
+            "https://iptv-org.github.io/iptv/countries/my.m3u",
+            "https://iptv-org.github.io/iptv/countries/us.m3u",
+            "https://iptv-org.github.io/iptv/countries/jp.m3u",
+            "https://iptv-org.github.io/iptv/countries/in.m3u",
+            "https://iptv-org.github.io/iptv/countries/sa.m3u",
+            "https://iptv-org.github.io/iptv/countries/uk.m3u",
+            "https://iptv-org.github.io/iptv/countries/int.m3u",
+            "https://raw.githubusercontent.com/underworld11/IPTV/refs/heads/master/indonesia.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id_telkomsel.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/id_dens.m3u",
+            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-ott.m3u",
+            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u",
+            "https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv-m3u",
+            "https://raw.githubusercontent.com/Nugroho09/Auto-Merge-M3U-Playlist/refs/heads/main/playlist.m3u",
+            "https://mgi24.github.io/tvdigital/idwerk.m3u",
+            "https://mgi24.github.io/tvdigital/playlist.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u",
+            "https://raw.githubusercontent.com/Nugrohojati234/playlist/main/merged.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/jp.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/kr.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/us.m3u",
+            "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/uk.m3u",
+            "https://iptv-org.github.io/iptv/categories/sports.m3u",
+            "https://iptv-org.github.io/iptv/categories/movies.m3u",
+            "https://iptv-org.github.io/iptv/categories/kids.m3u",
+            "https://iptv-org.github.io/iptv/categories/news.m3u",
+            "https://iptv-org.github.io/iptv/categories/entertainment.m3u",
+            "https://iptv-org.github.io/iptv/categories/music.m3u",
+            "https://iptv-org.github.io/iptv/categories/lifestyle.m3u",
+            "https://iptv-org.github.io/iptv/index.country.m3u",
+            "https://iptv-org.github.io/iptv/index.category.m3u",
+            "https://iptv-org.github.io/iptv/index.m3u"
+          )
 
-          # 3. Proses pengunduhan & penggabungan
-          echo "Mengunduh dari URL1..."
-          curl -s -L "$URL1" | grep -v "^#EXTM3U" >> playlist.m3u || true
+          # 3. Proses pengunduhan & penggabungan otomatis menggunakan perulangan (Loop)
+          for url in "${URLS[@]}"; do
+            echo "Mengunduh dari: $url"
+            curl -s -L "$url" | grep -v "^#EXTM3U" >> playlist.m3u || true
+          done
 
-          echo "Mengunduh dari URL2..."
-          curl -s -L "$URL2" | grep -v "^#EXTM3U" >> playlist.m3u || true
-
-          # JIKA ADA FILE LOKAL (seperti channel.txt di repo), hapus tanda pagar (#) di bawah ini:
-           if [ -f "channel.txt" ]; then
-             cat channel.txt | grep -v "^#EXTM3U" >> playlist.m3u
-           fi
+          # 4. Jika ada file lokal (seperti channel.txt di repo), gabungkan juga:
+          if [ -f "channel.txt" ]; then
+            echo "Menambahkan dari file lokal channel.txt..."
+            cat channel.txt | grep -v "^#EXTM3U" >> playlist.m3u
+          fi
 
       - name: Commit & Push Perubahan
         run: |
