@@ -5,6 +5,12 @@ https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
+#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/WKrD0sd.png" tvg-id="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",SHOPECUP || Soccer Channel
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rpl/drm.php?id=115
+#EXTVLCOPT:http-referer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+https://canal86.my.id/m3u/ch6/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/yKQvRuc.png" tvg-id="",CHANEL INFO
 https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/1JhmFIM.png" tvg-id="" http-user-agent="android-R+" http-referrer="https://www.rctiplus.com/" referrer="https://www.rctiplus.com/",MNCTV
