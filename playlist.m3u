@@ -110,6 +110,12 @@ https://d2n3779oy6efpi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://mic.siar.us/mic/live/mic.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/QE3uBHR.png" tvg-id="",XITE Hits
 https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
+#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/D5j7pGA.png" tvg-id="Metro TV" http-user-agent="Mozilla/5.0",15:30 Persebaya vs Sleman
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live2.jorvakstreamcache.com/live/channel21.m3u8
+#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/D5j7pGA.png" tvg-id="Metro TV" http-user-agent="Mozilla/5.0",19:00 Persib vs Persik
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://tg086gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=043fe281c622b512d80bd84cbe3c547a&wsABSTime=1792340056&wsSession=0b644cebac4014dc663eb5bb-179229686259224&wsIPSercert=d384bd7dc4a905b49295bc2a88d9d82e&wsBindIP=2&wsserid=1168024215084672958
 #EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/UIp4N5a.png" tvg-id="" http-user-agent="Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36",Shope Cup
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
