@@ -1,20 +1,30 @@
 #EXTM3U
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/pWD17IK.png" tvg-id="" http-user-agent="VidioPlayer/6.31.6" http-referrer="http://www.vidio.com/" referrer="http://www.vidio.com/",SCTV
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/yKQvRuc.png" tvg-id="",CHANEL INFO
+https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/K6fAZNn.png" tvg-id="205" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Indosiar
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-https://nextgenz.my.id/event/pidio/play.mpd?id=204&type=dash
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/K6fAZNn.png" tvg-id="" http-user-agent="VidioPlayer/6.31.6" http-referrer="http://www.vidio.com/" referrer="http://www.vidio.com/",INDOSIAR
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=205&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=205&type=compat
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/pWD17IK.png.png" tvg-id="204" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",SCTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=204&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=204&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/0aouhmt.png.png" tvg-id="782" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",ANTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=782&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=782&type=dash
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/NqxYx83.png" tvg-id="rcti" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" http-referrer="https://www.rctiplus.com/" referrer="https://www.rctiplus.com/",RCTI
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -49,41 +59,14 @@ https://maxstream.malingtv.workers.dev/stream/0_uakgnhip.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://maxstream.malingtv.workers.dev/drm?id=0_cavdcfwq
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
 https://maxstream.malingtv.workers.dev/stream/0_cavdcfwq.mpd
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/qG63VcM.png" tvg-id="Rajawali TV",RTV
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/Vb97OXh.png" tvg-id="Metro TV" http-user-agent="Mozilla/5.0",Metro TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/OPj0GiO.png" tvg-id="Kompas TV" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0",Kompas TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"
 https://op-group1-densxvisionhd-1.dens.tv/s/s104/index.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/0aouhmt.png" tvg-id="" http-user-agent="VidioPlayer/6.31.6" http-referrer="http://www.vidio.com/" referrer="http://www.vidio.com/",ANTV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
-#EXTVLCOPT:http-referrer=http://www.vidio.com/
-#EXTVLCOPT:http-origin=http://www.vidio.com
-https://nextgenz.my.id/event/pidio/play.mpd?id=782&type=dash
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/eAPiFW7.png" tvg-id="itzplay.id",TVONE
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/6zGjwqk.png" tvg-id="Mdtv" http-user-agent="Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36" http-referrer="https://m.vidio.com/" referrer="https://m.vidio.com/",MDTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#EXTVLCOPT:http-referrer=https://m.vidio.com/
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
-https://tvratu.my.id/vid/index.m3u8?id=875&type=hls
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/DOTuspz.png" tvg-id="" http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36",BTV
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36"
-https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/B1VH3fK.png" tvg-id="Moji" http-user-agent="Mozilla/5.0" http-referrer="https://www.dens.tv/" referrer="https://www.dens.tv/",MOJI TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/yrKGLwM.png" tvg-id="" http-user-agent="YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3",VTV
 #EXTVLCOPT:http-user-agent="YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3"
 https://flv.intechmedia.net/live/ch107.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/QwNRETl.png" tvg-id="",Magna TV
-https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/t0KQiNn.png" tvg-id="TVRINasional.id" http-user-agent="TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1",TVRI Nasional
 #EXTVLCOPT:http-user-agent="TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
@@ -91,36 +74,153 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 #EXTVLCOPT:http-user-agent="TVRIKLIK/7.0 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"
 #EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/aPDVRni.png" tvg-id="" http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36" http-referrer="https://www.vidio.com/" referrer="https://www.vidio.com/",NUSANTARA TV
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36"
-#EXTVLCOPT:http-referrer=https://www.vidio.com/
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/jjAdx4I.png" tvg-id="" http-user-agent="VidioPlayer/6.41.11",JAKTV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://op-flashcon-digdayasd-1.dens.tv/h/h209/stream.m3u8?app_type=web&userid=lite&chname=Jak_tv
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/vwhA9To.png" tvg-id="" http-user-agent="VidioPlayer/6.41.11",Garuda TV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://hgmtv.com:19360/garudatvlivestreaming/480p.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/SLy1Tb5.png" tvg-id="" http-user-agent="VidioPlayer/6.41.11",Elshinta TV
-#EXTVLCOPT:http-user-agent=VidioPlayer/6.41.11
-https://op-flashcon-digdayasd-1.dens.tv/h/h216/S1/mnf.m3u8
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/Vb97OXh.png" tvg-id="777" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Metro TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=777&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=777&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/B1VH3fK.png" tvg-id="206" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Moji
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=206&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=206&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/qG63VcM.png" tvg-id="1561" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",RTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=1561&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=1561&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/1HWGkF9.png" tvg-id="18280" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Berita Satu
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=18280&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=18280&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/DOTuspz.png" tvg-id="6165" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",BTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=6165&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=6165&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/vwhA9To.png" tvg-id="18162" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Garuda TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=18162&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=18162&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/jjAdx4I.png" tvg-id="5415" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Jaktv
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=5415&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=5415&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/ePuvWaF.png" tvg-id="9713" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",JTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=9713&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=9713&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/aPDVRni.png" tvg-id="7432" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Nusantara TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=7432&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=7432&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/d5INw3Y.png" tvg-id="19046" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Sin Po TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=19046&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=19046&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/PlnrAMD.png" tvg-id="7464" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",AJWA TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=7464&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=7464&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/CMRN5vM.jpg" tvg-id="9714" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",jawaposTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=9714&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=9714&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/cNSApXQ.png" tvg-id="6482" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",DAAI TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=6482&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=6482&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/SLy1Tb5.png" tvg-id="10975" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Elshinta TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=10975&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=10975&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/bqaHBdj.png" tvg-id="6898" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",U-Channel TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=6898&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=6898&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/QwNRETl.png" tvg-id="7230" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",Magna TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=7230&type=hls
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/TV4bcqG.png" tvg-id="12607" http-user-agent="VidioPlayer/2608.2.7" http-referrer="android-app://com.vidio.android" referrer="android-app://com.vidio.android",DMI TV
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gateway.rrlaundry.my.id/stream/vid/primer/stream_vidio.php?id=12607&type=drm
+#EXTVLCOPT:http-referrer=android-app://com.vidio.android
+#EXTVLCOPT:http-user-agent=VidioPlayer/2608.2.7
+https://gateway.rrlaundry.my.id/stream/vid/primer/index.mpd?id=12607&type=dash
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/6zGjwqk.png" tvg-id="Mdtv" http-user-agent="Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36" http-referrer="https://m.vidio.com/" referrer="https://m.vidio.com/",MDTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"
+https://tvratu.my.id/vid/index.m3u8?id=875&type=hls
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/RnaZS0k.png" tvg-id="",Vevo pop
 https://d2n3779oy6efpi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5rxuagztow0k3/playlist.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/bkLfXjI.png" tvg-id="mic",MIC
 https://mic.siar.us/mic/live/mic.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/QE3uBHR.png" tvg-id="",XITE Hits
 https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
-#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/D5j7pGA.png" tvg-id="Metro TV" http-user-agent="Mozilla/5.0",15:30 Persebaya vs Sleman
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live2.jorvakstreamcache.com/live/channel21.m3u8
-#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/D5j7pGA.png" tvg-id="Metro TV" http-user-agent="Mozilla/5.0",19:00 Persib vs Persik
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tg086gr3uomttgr31hctwgczdncjufisg17ufgr.100ycdn.com/live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=043fe281c622b512d80bd84cbe3c547a&wsABSTime=1792340056&wsSession=0b644cebac4014dc663eb5bb-179229686259224&wsIPSercert=d384bd7dc4a905b49295bc2a88d9d82e&wsBindIP=2&wsserid=1168024215084672958
-#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/UIp4N5a.png" tvg-id="" http-user-agent="Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36",Shope Cup
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271
-#EXTVLCOPT:http-user-agent="Dalvik/2.1.0 (Linux; U; Android 9; SM-A730F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36"
-https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
+#EXTINF:-1 group-title="🎦 || TIVI FILM" tvg-logo="https://imgur.com/yKQvRuc.png" tvg-id="",CHANEL INFO
+https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
 #EXTINF:-1 group-title="🎦 || TIVI FILM" tvg-logo="https://images.maxstream.tv/sites/default/files/entry/0_urq0w0mp/banner_xxxhdpi.webp" tvg-id="0_urq0w0mp" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",Bioskop Indonesia
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -163,6 +263,8 @@ https://maxstream.malingtv.workers.dev/stream/0_menqjsva.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://maxstream.malingtv.workers.dev/drm?id=0_wiy2wbmv
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
 https://maxstream.malingtv.workers.dev/stream/0_wiy2wbmv.mpd
+#EXTINF:-1 group-title="▶️ || LIVE" tvg-logo="https://imgur.com/yKQvRuc.png" tvg-id="",CHANEL INFO
+https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
 error code: 1042
 #EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://github.com/riotryulianto/iptv-playlists/blob/main/icons/antv.png?raw=true" group-title="Indonesia",ANTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
