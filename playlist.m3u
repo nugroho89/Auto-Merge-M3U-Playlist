@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/yKQvRuc.png" tvg-id="",CHANEL INFO
-https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/pWD17IK.png" tvg-id="SCTV" http-user-agent="Mozilla/5.0",SCTV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=204
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvratu.my.id/vid/index.mpd?id=204
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/K6fAZNn.png" tvg-id="Indosiar" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",Indosiar
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/pWD17IK.png" tvg-id="" http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36" http-referrer="https://www.vidio.com/" referrer="https://www.vidio.com/",SCTV
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36"
+#EXTVLCOPT:http-referrer=https://www.vidio.com/
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=204
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/K6fAZNn.png" tvg-id="" http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36",INDOSIAR
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://tvratu.my.id/vid/index.mpd?id=205&type=drm
-#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
-https://tvratu.my.id/vid/index.mpd?id=205&type=dash
+#KODIPROP:inputstream.adaptive.license_key=https://calistaiptv.my.id/indopart/play.drm?id=205&type=drm
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Linux; Android 9; MiTV-AXSO1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Mobile Safari/537.36"
+https://bintangstreaming.my.id/forsat23/pido.php/.mpd?id=205
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/yKQvRuc.png" tvg-id="",CHANEL INFO
+https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/NqxYx83.png" tvg-id="rcti" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" http-referrer="https://www.rctiplus.com/" referrer="https://www.rctiplus.com/",RCTI
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
