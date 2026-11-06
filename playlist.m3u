@@ -31,14 +31,16 @@ https://drive.google.com/uc?id=1wxnTMqAWI4x7eRk3RpQOy0j6rtaRYiAO
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/OPj0GiO.png" tvg-id="Kompas TV" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0",Kompas TV
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"
 https://op-group1-densxvisionhd-1.dens.tv/s/s104/index.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/VT018Tx.png" tvg-id="trans7" http-user-agent="Mozilla/5.0" http-referrer="https://video.detik.com/" referrer="https://video.detik.com/",TRANS 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://video.detik.com/
-https://trans.diorx.my.id/trans7.m3u8
-#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/aU7FIqE.png" tvg-id="transtv" http-user-agent="Mozilla/5.0" http-referrer="https://video.detik.com/" referrer="https://video.detik.com/",TRANS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTVLCOPT:http-referrer=https://video.detik.com/
-https://trans.diorx.my.id/transtv.m3u8
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/aU7FIqE.png" tvg-id="TransTV.id@SD" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",TransTV
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
+#EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/VT018Tx.png" tvg-id="Trans7.id@SD" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml",Trans7
+#EXTVLCOPT:http-referer=https://www.cnbcindonesia.com/
+#EXTVLCOPT:http-origin=https://20.detik.com
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/eAPiFW7.png" tvg-id="itzplay.id",TVONE
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/yrKGLwM.png" tvg-id="" http-user-agent="YouTV/1.5.6-prod.release (Linux;Android 7.1.1) ExoPlayerLib/2.12.3",VTV
