@@ -2,19 +2,19 @@
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/A0RYpV1.png" tvg-id="" http-user-agent="android-R+" http-referrer="https://www.rctiplus.com/" referrer="https://www.rctiplus.com/",RCTI
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+https://rctiplus-api.primare.workers.dev/h/aHR0cHM6Ly9saW5pZXItcmN0aS5yY3RpcGx1cy5pZC9yY3RpLXNkaS1hdmMxXzEwMDAwMDA9MTctbXA0YV85NjAwMD0xLm0zdTg_YXV0aF9rZXk9MTc5NTQ0ODc1OS1kNGJlYjM1ZjdmN2MzMTBjNThiZGVkZWM5NzczOWIxNS0wLTlmNGM1OTU4ZTlmMDUyNTVjYjM1NzVlNDM1NmMyODY5.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/kbxQvaU.png" tvg-id="" http-user-agent="android-R+" http-referrer="https://www.rctiplus.com/" referrer="https://www.rctiplus.com/",MNC Tv
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
+https://rctiplus-api.primare.workers.dev/h/aHR0cHM6Ly9saW5pZXItbW5jdHYucmN0aXBsdXMuaWQvbW5jdHYtc2RpLWF2YzFfMTAwMDAwMD0xNy1tcDRhXzk2MDAwPTEubTN1OA.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/pLkLQd1.png" tvg-id="" http-user-agent="android-R+" http-referrer="https://www.rctiplus.com/" referrer="https://www.rctiplus.com/",GTV
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
+https://rctiplus-api.primare.workers.dev/h/aHR0cHM6Ly9saW5pZXItZ3R2LnJjdGlwbHVzLmlkL2d0di1zZGktYXZjMV8xMDAwMDAwPTctbXA0YV85NjAwMD0xLm0zdTg.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/GWiC5tU.png" tvg-id="iNews.id@SD" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" http-referrer="https://www.visionplus.id/" referrer="https://www.visionplus.id/",iNews
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
-https://proxy-v.rctiplus.id/live/web/inews/index.m3u8
+https://rctiplus-api.primare.workers.dev/h/aHR0cHM6Ly9saW5pZXItaW5ld3MucmN0aXBsdXMuaWQvaW5ld3Mtc2RpLWF2YzFfMTAwMDAwMD0yMi1tcDRhXzk2MDAwPTEubTN1OA.m3u8
 #EXTINF:-1 group-title="📺 || TIVI NASIONAL" tvg-logo="https://imgur.com/tsNX3Ty.png" tvg-id="Indosiar.id" http-user-agent="Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36" http-referrer="https://m.vidio.com/" referrer="https://m.vidio.com/",INDOSIAR HD
 #EXTVLCOPT:http-referrer=https://m.vidio.com/
 #EXTVLCOPT:http-origin=https://m.vidio.com
